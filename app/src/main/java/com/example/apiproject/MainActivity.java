@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    TextView textView;
+    EditText textView;
     Button btn1;
 
     @Override
